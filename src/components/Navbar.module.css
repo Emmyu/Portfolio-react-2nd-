@@ -10,12 +10,15 @@
 }
 
 .title {
-  font-size: 30px;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--color-text);
-}
-
+    font-size: 30px;
+    font-weight: 600;  /* Maintain some boldness for emphasis */
+    text-decoration: none;
+    color: var(--color-text);
+    font-family: "Open Sans Bold", sans-serif;
+    /* OR */
+   
+    /* OR any other font family from the options above */
+  }
 
 .menuBtn {
   display: none;
@@ -52,11 +55,14 @@
     gap: 11px;
     z-index: 3;
   }
-
   .menuBtn {
-    display: block;
-    cursor: pointer;
+    background: none; /* Remove any background color */
+    border: none;  /* Remove any borders */
+    padding: 0;  /* Remove any padding */
+    /* Add other styles for hover effects, etc. */
+    cursor: pointer; /* Indicate clickable element */
   }
+  
 
   .menuItems {
     display: none;

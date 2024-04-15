@@ -2,8 +2,7 @@
 
 .App {
   background-color: var(--color-bg);
-  width: 100%;
-  height: 100%;
+  width: 100vw; /* Corrected unit */
+  height: 100vh; /* Corrected unit */
   overflow: hidden;
-  color: white;
 }
