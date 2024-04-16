@@ -55,14 +55,11 @@
     gap: 11px;
     z-index: 3;
   }
+
   .menuBtn {
-    background: none; /* Remove any background color */
-    border: none;  /* Remove any borders */
-    padding: 0;  /* Remove any padding */
-    /* Add other styles for hover effects, etc. */
-    cursor: pointer; /* Indicate clickable element */
+    display: block;
+    cursor: pointer;
   }
-  
 
   .menuItems {
     display: none;
