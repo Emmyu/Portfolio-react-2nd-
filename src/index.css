@@ -1,10 +1,25 @@
+/* index.css */
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Outfit", Arial, Helvetica, sans-serif;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add styles for the sidebar */
+.sidebar {
+  width: 250px; /* Adjust width as needed */
+  background-color: #f0f0f0;
+  /* Add any other non-sticky styling you need */
+}
+
+.sidebar.sticky {
+  position: fixed;
+  top: 0;
+  /* Add any other sticky styling you need */
+}

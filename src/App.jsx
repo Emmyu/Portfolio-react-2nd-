@@ -1,7 +1,9 @@
 import styles from "./App.module.css";
-import { Navbar } from "./components/Navbar"; // Remove .jsx
-import { Hero } from "./components/Hero"; // Remove .jsx
-import About from "./components/About";
+import { About } from "./components/About";
+
+import { Hero } from "./components/Hero";
+import { Navbar } from "./components/Navbar";
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+    
     </div>
   );
 }

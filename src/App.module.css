@@ -6,3 +6,11 @@
   height: 100vh; /* Corrected unit */
   overflow: hidden;
 }
+.container {
+  display: flex; /* Allow sidebar and main to sit side-by-side */
+}
+
+.main {
+  flex: 1; /* Make main content take up remaining space */
+  padding: 2rem; /* Add some padding for content */
+}

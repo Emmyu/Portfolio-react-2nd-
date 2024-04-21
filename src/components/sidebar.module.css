@@ -1,0 +1,14 @@
+/* Sidebar.module.css */
+
+.sidebar {
+    width: 250px; /* Adjust width as needed */
+    background-color: #f0f0f0;
+    /* Add any other non-sticky styling you need */
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    /* Add any other sticky styling you need */
+  }
+  
